@@ -42,7 +42,7 @@ jobs:
         name: my-trained-pipeline
         path: bikerental_model/trained_models
     - name: Install dependencies
-      run: pip install -r requirements/test_requirements.txt
+      run: pip install -r requirements/testing_requirements.txt
     - name: Test with pytest
       run: pytest
 
